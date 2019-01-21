@@ -16,6 +16,7 @@ urlpatterns = [
     url(r'^rest-auth/registration/', include('rest_auth.registration.urls')),
     url(r'^users/', include('nomadgram.users.urls')),
     url(r'^images/', include('nomadgram.images.urls')),
+    url(r'^musics/', include('nomadgram.musics.urls')),
     url(r'^notifications/',
         include('nomadgram.notifications.urls')),
     url(r'^accounts/', include('allauth.urls')),

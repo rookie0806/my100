@@ -47,7 +47,7 @@ X_FRAME_OPTIONS = 'DENY'
 # ------------------------------------------------------------------------------
 # Hosts/domain names that are valid for this site
 # See https://docs.djangoproject.com/en/dev/ref/settings/#allowed-hosts
-ALLOWED_HOSTS = env.list('DJANGO_ALLOWED_HOSTS', default=['my100.com', ])
+ALLOWED_HOSTS = env.list('DJANGO_ALLOWED_HOSTS', default=['my100.com','http://91216abc.ngrok.io/' ])
 # END SITE CONFIGURATION
 
 INSTALLED_APPS += ['gunicorn', ]

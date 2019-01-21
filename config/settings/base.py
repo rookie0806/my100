@@ -65,6 +65,7 @@ LOCAL_APPS = [
     'nomadgram.users.apps.UsersConfig',
     # Your stuff: custom apps go here
     'nomadgram.images.apps.ImagesConfig',  # images app
+    'nomadgram.musics.apps.MusicsConfig',  # images app
     'nomadgram.notifications.apps.NotificationsConfig'  # notifications app
 ]
 
