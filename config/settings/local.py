@@ -30,8 +30,8 @@ EMAIL_PORT = 1025
 EMAIL_HOST = 'localhost'
 
 ALLOWED_HOSTS = [
-    "91216abc.ngrok.io",
     "localhost",
+    "ajounice.com",
     "172.104.110.107",
     "0.0.0.0",
     "127.0.0.1",
